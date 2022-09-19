@@ -34,7 +34,7 @@ namespace Lesson07_02
 
             int bookTakenInDays = bibliotekosKnyga.HowLongBookIsTaken();
 
-            Console.WriteLine($"Knyga paimta {bookTakenInDays} dienu");
+            Console.WriteLine($"Knyga su ID {bibliotekosKnyga.Id} paimta {bookTakenInDays} dienu");
         }
     }
 }
